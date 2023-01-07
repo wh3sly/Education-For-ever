@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Education For Ever</title>
+        <link rel="icon" href="../imgs/pngtree-education-logo-vector-image-png-image_728259.jpg">
+        <meta charset="utf-8">
+        <link href="../Style.css" rel="stylesheet">
+        <meta name="viewport" content="widht=device-widht,intial-scale=1.0">
+        <link href="../css/apropos.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="headerx">
+                <div class="logo">
+                    <h1 class="hun">Education <span style="font-weight:100;">For Ever</span> </h1>
+                </div>
+                
+                    <ul class="bord">
+                        <a href="../index.html"><li>Acceuil</li></a>
+                        <a href="#" target="_self"><li>À propos</li></a>
+                        <a href="./language.html"><li>Language</li></a>
+                    </ul>
+                
+            </div>
+        </div>
+
+        <div class="bog">
+           <div class="me">
+                <h1 id="title"></h1>
+                <script type="text/javascript">
+
+                    const title = "À propos De moi";
+                    const letters = title.split("");
+                    let counter = 0;
+            
+                    function type() {
+                    if (counter < letters.length) {
+                    document.getElementById("title").innerHTML += title[counter];
+                    counter++;
+                    setTimeout(type, 75);} 
+                    else {
+                    setTimeout(erase, 1000);
+                    }
+                    }
+            
+                    function erase() {
+                    if (counter > 0) {
+                    const title = document.getElementById("title");
+                    title.innerHTML = title.innerHTML.slice(0, -1);
+                    counter--;
+                    setTimeout(erase, 50);} 
+                    else {
+                    setTimeout(type, 1000);
+                    }
+                    }
+              
+                    type();
+            
+                    
+                    </script>
+
+
+                <br><br>
+                  <p>
+                    Je m'appele <span style="font-weight: bold;font-size: 35px;text-shadow: 0 0 5px white;">Anass Chammami</span> , J'ai 18 ans ,Je suis  un etudiant de FSR faculte de Science Rabat - Maroc<br>
+                    precisament de Filiere SMI , qui est une branche des gens qui sont interese a l'informatique
+                    , J'ai un grand passion de tout ce qu'est programmable et praticable , Alors j'ai l'idee de pourquoi pas 
+                    de creer un site web qui aide les gens ou bien les eleves qui ont une difficulte dans quelque
+                    parties de langades surtout le HTML et le CSS<br>
+                    Si l'idée vous a plu et que vous avez trouvé le site intéressant pour vous.<br><br> 
+                   </p><br><br>
+    
+
+                
+           </div>
+        </div>
+
+    </body>
+</html>

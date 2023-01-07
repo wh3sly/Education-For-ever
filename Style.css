@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Josefin sans';
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./imgs/lead.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+}
+.header{
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    
+}
+.headerx {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+
+.logo h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.bord{
+    list-style: none;
+    float: right;
+    height: 100%;
+}
+.bord a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+    text-decoration: none;
+
+}
+.bord a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+}
+.bord li:hover{
+    color: red;
+}
+.bod{
+    width: 100%;
+    height: 50%;
+}
+.sp{
+    font-weight: bold;
+    font-size: 40px;
+}
+.bod h2{
+    margin-top: 160px;
+    font-weight: 100;
+    margin-left: 70px;
+    font-size: 70px;
+    color: white;
+    line-height: 50px;
+}
+.bod p {
+    color: rgb(250, 221, 184);
+    letter-spacing: 2px;
+    line-height: 25px;
+    margin:30px  80px;
+    text-shadow: 5px 4px 2px rgb(0, 0, 0);
+}
+.h1 {
+    animation: writing 6s;
+  }
+  
+  @keyframes writing {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

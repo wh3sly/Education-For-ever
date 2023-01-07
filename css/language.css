@@ -1,0 +1,225 @@
+.html {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    background-color: rgba(8, 6, 6, 0.945);
+    border: 0.1px solid black;
+    
+}
+
+.html11 {
+    width: 10%;
+    display: table;
+    float: left;
+}
+.htmljp { 
+    padding: 10px 20px;
+    height: 100px;
+    width: 100px;
+}
+.html11 > p {
+   display: table-cell;
+   vertical-align: middle;
+   color: white;
+   font-size: 40px;
+   font-weight: bold;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+  }
+  #HTML {
+    width: 100%;
+    height: 65px;
+    color: rgba(236, 60, 6, 0.692);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px rgb(236, 6, 0.692);
+  }
+  #CSS {
+    width: 100%;
+    height: 65px;
+    color: rgba(6, 29, 236, 0.753);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px rgb(96, 21, 235);
+  }
+  .pp {
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  code {
+    background-color: rgba(243, 96, 10, 0.76);
+    padding: 0 10px;
+    line-height: 30px;
+    border-radius: 3px;
+    color: black;
+  }
+  ul > li {
+    list-style: none;
+  }
+  .example {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 20px;
+  }
+  .example h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .example pre {
+    margin: 0;
+    overflow-x: auto;
+    white-space: pre-wrap;
+  }
+  h2 {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    margin: 1em 0 0.5em;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0 0 1em;
+}
+.download-btn{
+    background-color: DodgerBlue;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius:5px;
+}
+
+.download-btn:hover {
+    background-color: red;
+    transition-duration: 2s;
+  }
+.ppp:hover {
+    color: red;
+    transition: all 1s;
+}
+
+
+
+#js {
+    width: 100%;
+    height: 65px;
+    color: rgba(232, 236, 6, 0.753);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px rgb(255, 251, 0);
+}
+
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+pre {
+  background-color: rgba(17, 7, 7, 0.733);
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px ;
+  line-height: 0.8cm;
+}
+
+.ppa {
+  font-size: 20px;
+  list-style-type:circle ;
+  line-height: 0.7cm;
+}
+
+.head{
+  background-color: black;
+  width: 70%;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  position: relative;
+  left: 100px;
+}
+.head2{
+  text-align: center;
+  margin: 30px 45px;
+  padding: 5px 5px;
+  width: 80%;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 18px;
+  background-color: black;
+}
+.head3{
+  text-align: center;
+  display: block;
+}
+span{
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.btn{
+  width: 27%;
+  height: 60px;
+  margin: 0px 10px;
+  border: 0px ;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(0.9);
+}
+#clock {
+  width:140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: black;
+  color:white;
+  position: absolute;
+  top:0;
+  right:0;
+  
+}
+
+#title { 
+    margin-left: 270px;
+    margin-top: 4% ;
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 0 0 5px white;
+    height: 80px;
+  }
