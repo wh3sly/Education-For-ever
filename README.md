@@ -5,9 +5,6 @@ Welcome to **Education for Ever** 🌟, a tutorial website designed to introduce
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -27,13 +24,6 @@ Welcome to **Education for Ever** 🌟, a tutorial website designed to introduce
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) **HTML**: For structuring the content of the web pages.
 - ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) **CSS**: For styling the web pages.
 - ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) **JavaScript**: For adding interactivity and functionality to the web pages.
-
-## Getting Started
-
-To get started with this project, simply clone the repository to your local machine:
-
-```sh
-git clone https://github.com/your-github-username/education-for-ever.git
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
