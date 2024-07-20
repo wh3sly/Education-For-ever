@@ -31,6 +31,6 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Contact
 If you have any questions or feedback, feel free to reach out to me:
 
-📧 Email: your-email@example.com
+[![Email](https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-linkedin-username)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/your-github-username)
